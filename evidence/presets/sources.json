@@ -1,0 +1,74 @@
+{
+  "reviewedOn": "2026-09-07",
+  "sources": [
+    {
+      "id": "genome",
+      "kind": "github",
+      "url": "https://api.github.com/repos/caoimghgin/genome-palette-generator/commits?per_page=1",
+      "baseline": {
+        "commit": "70b95173e7cc468d688181c38734890d343b39d7"
+      }
+    },
+    {
+      "id": "carbon",
+      "kind": "npm",
+      "url": "https://registry.npmjs.org/@carbon/colors/latest",
+      "baseline": {
+        "version": "11.57.0",
+        "integrity": "sha512-ji8xOBiCzCmeR/Pg/rDbnViVYDnjSVWRclylQKqeAQNUIsfIWDB69xq/o33lba3vVccVDNrGcGkrVg5My0Ct7g=="
+      }
+    },
+    {
+      "id": "lightning",
+      "kind": "npm",
+      "url": "https://registry.npmjs.org/@salesforce-ux/design-system/latest",
+      "baseline": {
+        "version": "2.264.1",
+        "integrity": "sha512-HNAyY0sIp39mg+HX11Cxys13FHS5pfA/C1Im7HmzDe/xj1hgwbCkKez/3zgvvEkkAO6453iruxJ10R0Ae+xN1g=="
+      }
+    },
+    {
+      "id": "spectrum",
+      "kind": "npm",
+      "url": "https://registry.npmjs.org/@adobe/spectrum-tokens/latest",
+      "baseline": {
+        "version": "15.2.0",
+        "integrity": "sha512-lE3ibV6U9H5I7mqEcxQlfVcC0nVHc3JM45lXqXX1QG5LaUZU1fvD3LJPO1IEIuUxvGCTueB5mbGbNo5lHSklEQ=="
+      }
+    },
+    {
+      "id": "ant",
+      "kind": "npm",
+      "url": "https://registry.npmjs.org/@ant-design/colors/latest",
+      "baseline": {
+        "version": "8.0.1",
+        "integrity": "sha512-foPVl0+SWIslGUtD/xBr1p9U4AKzPhNYEseXYRRo5QSzGACYZrQbe11AYJbYfAWnWSpGBx6JjBmSeugUsD9vqQ=="
+      }
+    },
+    {
+      "id": "material",
+      "kind": "npm",
+      "url": "https://registry.npmjs.org/@material/material-color-utilities/latest",
+      "baseline": {
+        "version": "0.4.0",
+        "integrity": "sha512-dlq6VExJReb8dhjj3a/yTigr3ncNwoFmL5Iy2ENtbDX03EmNeOEdZ+vsaGrj7RTuO+mB7L58II4LCsl4NpM8uw=="
+      }
+    },
+    {
+      "id": "accessible",
+      "kind": "page",
+      "url": "https://accessiblepalette.com/",
+      "baseline": {
+        "textSha256": "1a851c3e9e69c14891cddab2d8b76e1fe9cc3f84a4e7328fd70c358f7eea04e2"
+      }
+    },
+    {
+      "id": "colorbox",
+      "kind": "github",
+      "url": "https://api.github.com/repos/lyft/coloralgorithm/commits?per_page=1",
+      "baseline": {
+        "commit": "3aae9b0f958db735b24b604ae3eb177859d4416f"
+      }
+    }
+  ]
+}

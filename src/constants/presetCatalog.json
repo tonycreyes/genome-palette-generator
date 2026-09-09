@@ -1,0 +1,101 @@
+[
+  {
+    "value": "0",
+    "id": "univers",
+    "label": "Univers",
+    "status": "native",
+    "source": "https://github.com/caoimghgin/genome-palette-generator/blob/70b95173e7cc468d688181c38734890d343b39d7/src/constants/weightedTargets.ts",
+    "description": "The full Genome lightness grid. Numbers identify scale positions; contrast is measured from the actual HEX.",
+    "watch": "genome",
+    "revision": "genome-v1",
+    "auditedOn": "2026-09-07"
+  },
+  {
+    "value": "1",
+    "id": "genome",
+    "label": "Genome",
+    "status": "native",
+    "source": "https://github.com/caoimghgin/genome-palette-generator/blob/70b95173e7cc468d688181c38734890d343b39d7/src/constants/weightedTargets.ts",
+    "description": "Genome\u2019s original color and neutral mappings. Exact inputs can fall short of the contrast usually associated with a step.",
+    "watch": "genome",
+    "revision": "genome-v1",
+    "auditedOn": "2026-09-07"
+  },
+  {
+    "value": "2",
+    "id": "carbon",
+    "label": "IBM Carbon",
+    "status": "approximate",
+    "source": "https://carbondesignsystem.com/elements/color/overview/",
+    "description": "Genome-generated shades with Carbon-style 10\u2013100 labels. These are not IBM\u2019s published palette or theme tokens.",
+    "watch": "carbon",
+    "revision": "genome-v1",
+    "auditedOn": "2026-09-07"
+  },
+  {
+    "value": "3",
+    "id": "lightning",
+    "label": "Salesforce Lightning",
+    "status": "approximate",
+    "source": "https://github.com/salesforce-ux/design-system/tree/main/design-tokens",
+    "description": "Genome lightness targets with Lightning-style labels. Does not load Salesforce\u2019s palette or SLDS theme tokens.",
+    "watch": "lightning",
+    "revision": "genome-v1",
+    "auditedOn": "2026-09-07"
+  },
+  {
+    "value": "4",
+    "id": "spectrum",
+    "label": "Adobe Spectrum",
+    "status": "legacy",
+    "source": "https://github.com/adobe/spectrum-design-data",
+    "description": "Legacy 100\u20131300 mapping. Adobe now separates Spectrum 2 from S1; this mapping implements neither official token dataset.",
+    "watch": "spectrum",
+    "revision": "genome-v1",
+    "auditedOn": "2026-09-07"
+  },
+  {
+    "value": "5",
+    "id": "ant",
+    "label": "Ant Design",
+    "status": "approximate",
+    "source": "https://github.com/ant-design/ant-design-colors",
+    "description": "Genome-generated shades with 1\u201310 labels. Ant uses its own color generator; matching labels does not mean matching colors.",
+    "watch": "ant",
+    "revision": "genome-v1",
+    "auditedOn": "2026-09-07"
+  },
+  {
+    "value": "6",
+    "id": "material",
+    "label": "Material",
+    "status": "legacy",
+    "source": "https://github.com/material-foundation/material-color-utilities",
+    "description": "Legacy 50\u2013900 mapping. Material 3 uses HCT tonal palettes and dynamic schemes; this preset is not Material 3.",
+    "watch": "material",
+    "revision": "genome-v1",
+    "auditedOn": "2026-09-07"
+  },
+  {
+    "value": "7",
+    "id": "accessible",
+    "label": "Accessible Palette",
+    "status": "approximate",
+    "source": "https://accessiblepalette.com/",
+    "description": "A fixed Genome mapping inspired by Accessible Palette. The source tool supports adjustable lightness and interpolation; this is not a synchronized palette.",
+    "watch": "accessible",
+    "revision": "genome-v1",
+    "auditedOn": "2026-09-07"
+  },
+  {
+    "value": "8",
+    "id": "colorbox",
+    "label": "ColorBox",
+    "status": "legacy",
+    "source": "https://github.com/lyft/coloralgorithm",
+    "description": "A legacy fixed mapping. ColorBox uses configurable hue, saturation and luminosity curves and step counts, rather than this Genome mapping.",
+    "watch": "colorbox",
+    "revision": "genome-v1",
+    "auditedOn": "2026-09-07"
+  }
+]

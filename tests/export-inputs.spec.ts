@@ -1,0 +1,38 @@
+import {test,expect} from '@playwright/test';
+import fs from 'node:fs/promises';
+const defaults = ['primary|0071B2','secondary|8352C6','tertiary|7B6747','positive|007C00','negative|D80000','highlight|FFCF3D','attention|F57C13','info|035EF9','system|0A66D8','neutral|6A6A6A'].map((value,i)=>{const [name,hex]=value.split('|');return {id:String.fromCharCode(65+i),name,seed:'#'+hex,pins:[] as string[]};});
+
+test('missing input decision protects copying and downloading without changing saved palette',async({page,context})=>{
+ await context.grantPermissions(['clipboard-read','clipboard-write']);
+ const saved={columns:defaults.map((c,i)=>i===0?{...c,pins:['#FFFFFF','#000000']}:c),preset:1,presetRevision:'genome-v1',customScale:{steps:[{target:95,label:'BASE'},{target:5,label:'pin-1'}]}};
+ await page.addInitScript(value=>localStorage.setItem('genome.workspace.v1',JSON.stringify(value)),saved);
+ await page.goto('/');
+ const original=await page.evaluate(()=>localStorage.getItem('genome.workspace.v1'));
+ const swatches=await page.locator('.swatch').allTextContents();
+ await page.getByRole('button',{name:'Show JSON',exact:true}).click();
+ await expect(page.getByRole('button',{name:'Copy JSON',exact:true})).toBeDisabled();
+ await expect(page.getByRole('button',{name:'Download JSON',exact:true})).toBeDisabled();
+ await expect(page.getByLabel('Palette JSON')).toHaveCount(0);
+ await expect(page.getByLabel('Base and pinned colors')).toContainText('#0071B2');
+ await page.getByRole('radio',{name:'Include these colors',exact:true}).click();
+ const json=(await page.getByLabel('Palette JSON').textContent())!;
+ const data=JSON.parse(json);
+ for(const [i,column] of saved.columns.entries())for(const hex of [column.seed,...column.pins])expect(data.columns[i].shades.some((s:{hex:string})=>s.hex===hex)).toBe(true);
+ await page.getByRole('button',{name:'Copy JSON',exact:true}).click();
+ expect(await page.evaluate(()=>navigator.clipboard.readText())).toBe(json);
+ const event=page.waitForEvent('download');await page.getByRole('button',{name:'Download JSON',exact:true}).click();
+ expect(await fs.readFile((await (await event).path())!,'utf8')).toBe(json);
+ await page.getByRole('radio',{name:'Export without these colors',exact:true}).click();
+ const omitted=JSON.parse((await page.getByLabel('Palette JSON').textContent())!);
+ expect(omitted.columns[0].shades).toHaveLength(2);
+ expect(omitted.columns[0].shades.some((s:{hex:string})=>s.hex==='#0071B2')).toBe(false);
+ await page.getByLabel('Export format').selectOption('genome');
+ await expect(page.getByRole('button',{name:'Download JSON',exact:true})).toBeEnabled();
+ await page.getByLabel('Export format').selectOption('scale');
+ await expect(page.getByRole('button',{name:'Download JSON',exact:true})).toBeDisabled();
+ expect(await page.evaluate(()=>localStorage.getItem('genome.workspace.v1'))).toBe(original);
+ expect(await page.locator('.swatch').allTextContents()).toEqual(swatches);
+ await page.getByRole('combobox',{name:'Scale mapping',exact:true}).selectOption('0');
+ await expect(page.getByRole('button',{name:'Download JSON',exact:true})).toBeEnabled();
+ await expect(page.getByLabel('Base and pinned colors')).toHaveCount(0);
+});

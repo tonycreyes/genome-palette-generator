@@ -1,0 +1,1056 @@
+{
+  "blue": {
+    "seeds": [
+      "#0071B2"
+    ],
+    "rows": [
+      {
+        "hex": "#FFFFFF",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#F4F8FC",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#E9F2FA",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#D5E5F2",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#BFD7EC",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#ACCAE4",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#97BDDE",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#84B0D6",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#6EA3D0",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#5A96C8",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#4489BF",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#2A7BB8",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#0071B2",
+        "isUserDefined": true,
+        "isPinned": false
+      },
+      {
+        "hex": "#00639B",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#00568A",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#004A78",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#033E64",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#003354",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#002844",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#011D33",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#001224",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#000000",
+        "isUserDefined": false,
+        "isPinned": false
+      }
+    ]
+  },
+  "pale": {
+    "seeds": [
+      "#F8F4ED"
+    ],
+    "rows": [
+      {
+        "hex": "#FFFFFF",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#F8F4ED",
+        "isUserDefined": true,
+        "isPinned": false
+      },
+      {
+        "hex": "#F4F0E9",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#E6E2DC",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#D8D4CE",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#C9C6C0",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#BBB8B3",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#AEABA6",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#A09D98",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#92908B",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#85837F",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#787672",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#6C6A66",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#605E5C",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#53524F",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#484745",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#3C3B39",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#31302E",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#272625",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#1C1B1A",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#111110",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#000000",
+        "isUserDefined": false,
+        "isPinned": false
+      }
+    ]
+  },
+  "dark": {
+    "seeds": [
+      "#080C15"
+    ],
+    "rows": [
+      {
+        "hex": "#FFFFFF",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#F8F8F8",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#F1F1F2",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#E1E2E3",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#D3D4D6",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#C5C7CA",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#B7B9BC",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#A9ABAF",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#9C9EA3",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#8E9196",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#81848A",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#73777D",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#676B72",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#5B5E66",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#4F535A",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#43474F",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#373B43",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#2C3039",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#22262F",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#181C24",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#080C15",
+        "isUserDefined": true,
+        "isPinned": false
+      },
+      {
+        "hex": "#000000",
+        "isUserDefined": false,
+        "isPinned": false
+      }
+    ]
+  },
+  "red": {
+    "seeds": [
+      "#FF0000"
+    ],
+    "rows": [
+      {
+        "hex": "#FFFFFF",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#FFF6F3",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#FEEDE9",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#FDDBD4",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#FFC7BC",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#FFB4A7",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#FEA090",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#FF8978",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#FF7260",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#FF5443",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#FF0000",
+        "isUserDefined": true,
+        "isPinned": false
+      },
+      {
+        "hex": "#EE0201",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#D80000",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#C00301",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#AA0000",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#930301",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#7E0000",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#680101",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#550000",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#410100",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#2B0202",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#000000",
+        "isUserDefined": false,
+        "isPinned": false
+      }
+    ]
+  },
+  "yellow": {
+    "seeds": [
+      "#FFCF3D"
+    ],
+    "rows": [
+      {
+        "hex": "#FFFFFF",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#FEF8E7",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#FFF0C6",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#FEE091",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#FFCF3D",
+        "isUserDefined": true,
+        "isPinned": false
+      },
+      {
+        "hex": "#EEC13A",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#DEB432",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#CEA730",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#BE992D",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#AF8D27",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#9F8023",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#8F731C",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#81681A",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#735B17",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#655011",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#56450F",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#4A390D",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#3D2F02",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#2F2407",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#241A00",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#171000",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#000000",
+        "isUserDefined": false,
+        "isPinned": false
+      }
+    ]
+  },
+  "gray": {
+    "seeds": [
+      "#808080"
+    ],
+    "rows": [
+      {
+        "hex": "#FFFFFF",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#F8F8F8",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#F1F1F1",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#E2E2E2",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#D4D4D4",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#C6C6C6",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#B9B9B9",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#ABABAB",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#9E9E9E",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#919191",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#808080",
+        "isUserDefined": true,
+        "isPinned": false
+      },
+      {
+        "hex": "#767676",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#6A6A6A",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#5E5E5E",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#525252",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#474747",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#3B3B3B",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#303030",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#262626",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#1B1B1B",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#111111",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#000000",
+        "isUserDefined": false,
+        "isPinned": false
+      }
+    ]
+  },
+  "black": {
+    "seeds": [
+      "#000000"
+    ],
+    "rows": [
+      {
+        "hex": "#FFFFFF",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#F8F8F8",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#F1F1F1",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#E2E2E2",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#D4D4D4",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#C6C6C6",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#B9B9B9",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#ABABAB",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#9E9E9E",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#919191",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#848484",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#767676",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#6A6A6A",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#5E5E5E",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#525252",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#474747",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#3B3B3B",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#303030",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#262626",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#1B1B1B",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#111111",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#000000",
+        "isUserDefined": false,
+        "isPinned": false
+      }
+    ]
+  },
+  "white": {
+    "seeds": [
+      "#FFFFFF"
+    ],
+    "rows": [
+      {
+        "hex": "#FFFFFF",
+        "isUserDefined": true,
+        "isPinned": false
+      },
+      {
+        "hex": "#F8F8F8",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#F1F1F1",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#E2E2E2",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#D4D4D4",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#C6C6C6",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#B9B9B9",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#ABABAB",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#9E9E9E",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#919191",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#848484",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#767676",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#6A6A6A",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#5E5E5E",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#525252",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#474747",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#3B3B3B",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#303030",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#262626",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#1B1B1B",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#111111",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#000000",
+        "isUserDefined": false,
+        "isPinned": false
+      }
+    ]
+  },
+  "pinned": {
+    "seeds": [
+      "#0071B2",
+      "#003355"
+    ],
+    "rows": [
+      {
+        "hex": "#FFFFFF",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#F4F8FC",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#E9F2FA",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#D5E5F2",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#BFD7EC",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#ACCAE4",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#97BDDE",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#84B0D6",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#6EA3D0",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#5A96C8",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#4489BF",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#2A7BB8",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#0071B2",
+        "isUserDefined": true,
+        "isPinned": false
+      },
+      {
+        "hex": "#00639C",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#00568A",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#004A78",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#023E65",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#003355",
+        "isUserDefined": false,
+        "isPinned": true
+      },
+      {
+        "hex": "#002844",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#001D33",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#001223",
+        "isUserDefined": false,
+        "isPinned": false
+      },
+      {
+        "hex": "#000000",
+        "isUserDefined": false,
+        "isPinned": false
+      }
+    ]
+  }
+}

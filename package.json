@@ -1,62 +1,40 @@
 {
-  "name": "genome-palette-generator",
-  "version": "0.1.0",
+  "name": "genome-modernization",
+  "version": "0.2.0",
   "private": true,
-  "dependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "@emotion/babel-plugin": "^11.11.0",
-    "@emotion/core": "^11.0.0",
-    "@emotion/react": "^11.11.4",
-    "@emotion/styled": "^11.11.5",
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/chroma-js": "^2.4.4",
-    "@types/jest": "^27.5.2",
-    "@types/lodash": "^4.17.0",
-    "@types/node": "^16.18.96",
-    "@types/react": "^18.3.1",
-    "@types/react-dom": "^18.3.0",
-    "@types/react-modal": "^3.16.3",
-    "@types/styled-components": "^5.1.34",
-    "apca-w3": "^0.1.9",
-    "chroma-js": "^2.4.2",
-    "delta-e": "^0.0.8",
-    "lodash": "^4.17.21",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-modal": "^3.16.1",
-    "react-scripts": "5.0.1",
-    "react-select": "^5.8.0",
-    "react-simple-snackbar": "^1.1.11",
-    "react-tiny-popover": "^8.0.4",
-    "styled-components": "^6.1.8",
-    "tinycolor2": "^1.6.0",
-    "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "vite --host 127.0.0.1 --port 4191",
+    "start": "npm run dev",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4191",
+    "test": "vitest run src/_tests_",
+    "test:e2e": "playwright test",
+    "test:all": "npm test && npm run build && npm run test:e2e",
+    "presets:check": "node scripts/check-preset-sources.mjs",
+    "test:e2e:production": "npm run build && GENOME_TEST_PRODUCTION=1 playwright test"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "dependencies": {
+    "chroma-js": "2.4.2",
+    "color-convert": "2.0.1",
+    "delta-e": "0.0.8",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "tinycolor2": "1.6.0"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.63.0",
+    "@types/chroma-js": "2.4.4",
+    "@types/node": "22.19.0",
+    "@types/react": "18.3.31",
+    "@types/react-dom": "18.3.0",
+    "@vitejs/plugin-react": "6.1.1",
+    "typescript": "5.9.3",
+    "vite": "8.2.2",
+    "vitest": "5.0.0"
   }
 }

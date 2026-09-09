@@ -1,5 +1,4 @@
 
-export const url = "https://api.npoint.io/93993ebc2b8a15e89afd/";
 export const rowHeight = '60px'
 export const columnWidth = '180px'
 export const fontSize = '14pt'
@@ -27,32 +26,6 @@ export const Event = {
     SHOW_CONTRAST: "SHOW_CONTRAST",
     HIDE_CONTRAST: "HIDE_CONTRAST",
 };
-
-export function doFetch() {
-    fetch(url + 'cvh_strict')
-        .then((res) => res.json())
-        .then((response) => {
-            console.log(response);
-        })
-        .catch(console.log);
-}
-
-export function doPost() {
-
-    const requestOptions = {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ title: 'React POST Request Example' })
-    };
-
-    fetch(url + 'blah', requestOptions)
-        .then((res) => res.json())
-        .then((response) => {
-            console.log(response);
-        })
-        .catch(console.log);
-}
-
 
 export const columns = [
     'A',
@@ -83,7 +56,6 @@ export const columns = [
     'Z'
 ]
 
-//https://jasonwatmore.com/post/2020/02/01/react-fetch-http-post-request-examples
 
 export const semantics = {
     primary: "primary",

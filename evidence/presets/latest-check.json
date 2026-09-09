@@ -1,0 +1,96 @@
+{
+  "checkedAt": "2026-09-08T03:44:30.170Z",
+  "meaning": "Source drift is a review signal, not proof of palette changes or compatibility.",
+  "results": [
+    {
+      "id": "genome",
+      "status": "unchanged",
+      "expected": {
+        "commit": "70b95173e7cc468d688181c38734890d343b39d7"
+      },
+      "actual": {
+        "commit": "70b95173e7cc468d688181c38734890d343b39d7"
+      }
+    },
+    {
+      "id": "carbon",
+      "status": "unchanged",
+      "expected": {
+        "version": "11.57.0",
+        "integrity": "sha512-ji8xOBiCzCmeR/Pg/rDbnViVYDnjSVWRclylQKqeAQNUIsfIWDB69xq/o33lba3vVccVDNrGcGkrVg5My0Ct7g=="
+      },
+      "actual": {
+        "version": "11.57.0",
+        "integrity": "sha512-ji8xOBiCzCmeR/Pg/rDbnViVYDnjSVWRclylQKqeAQNUIsfIWDB69xq/o33lba3vVccVDNrGcGkrVg5My0Ct7g=="
+      }
+    },
+    {
+      "id": "lightning",
+      "status": "unchanged",
+      "expected": {
+        "version": "2.264.1",
+        "integrity": "sha512-HNAyY0sIp39mg+HX11Cxys13FHS5pfA/C1Im7HmzDe/xj1hgwbCkKez/3zgvvEkkAO6453iruxJ10R0Ae+xN1g=="
+      },
+      "actual": {
+        "version": "2.264.1",
+        "integrity": "sha512-HNAyY0sIp39mg+HX11Cxys13FHS5pfA/C1Im7HmzDe/xj1hgwbCkKez/3zgvvEkkAO6453iruxJ10R0Ae+xN1g=="
+      }
+    },
+    {
+      "id": "spectrum",
+      "status": "unchanged",
+      "expected": {
+        "version": "15.2.0",
+        "integrity": "sha512-lE3ibV6U9H5I7mqEcxQlfVcC0nVHc3JM45lXqXX1QG5LaUZU1fvD3LJPO1IEIuUxvGCTueB5mbGbNo5lHSklEQ=="
+      },
+      "actual": {
+        "version": "15.2.0",
+        "integrity": "sha512-lE3ibV6U9H5I7mqEcxQlfVcC0nVHc3JM45lXqXX1QG5LaUZU1fvD3LJPO1IEIuUxvGCTueB5mbGbNo5lHSklEQ=="
+      }
+    },
+    {
+      "id": "ant",
+      "status": "unchanged",
+      "expected": {
+        "version": "8.0.1",
+        "integrity": "sha512-foPVl0+SWIslGUtD/xBr1p9U4AKzPhNYEseXYRRo5QSzGACYZrQbe11AYJbYfAWnWSpGBx6JjBmSeugUsD9vqQ=="
+      },
+      "actual": {
+        "version": "8.0.1",
+        "integrity": "sha512-foPVl0+SWIslGUtD/xBr1p9U4AKzPhNYEseXYRRo5QSzGACYZrQbe11AYJbYfAWnWSpGBx6JjBmSeugUsD9vqQ=="
+      }
+    },
+    {
+      "id": "material",
+      "status": "unchanged",
+      "expected": {
+        "version": "0.4.0",
+        "integrity": "sha512-dlq6VExJReb8dhjj3a/yTigr3ncNwoFmL5Iy2ENtbDX03EmNeOEdZ+vsaGrj7RTuO+mB7L58II4LCsl4NpM8uw=="
+      },
+      "actual": {
+        "version": "0.4.0",
+        "integrity": "sha512-dlq6VExJReb8dhjj3a/yTigr3ncNwoFmL5Iy2ENtbDX03EmNeOEdZ+vsaGrj7RTuO+mB7L58II4LCsl4NpM8uw=="
+      }
+    },
+    {
+      "id": "accessible",
+      "status": "unchanged",
+      "expected": {
+        "textSha256": "1a851c3e9e69c14891cddab2d8b76e1fe9cc3f84a4e7328fd70c358f7eea04e2"
+      },
+      "actual": {
+        "textSha256": "1a851c3e9e69c14891cddab2d8b76e1fe9cc3f84a4e7328fd70c358f7eea04e2"
+      }
+    },
+    {
+      "id": "colorbox",
+      "status": "unchanged",
+      "expected": {
+        "commit": "3aae9b0f958db735b24b604ae3eb177859d4416f"
+      },
+      "actual": {
+        "commit": "3aae9b0f958db735b24b604ae3eb177859d4416f"
+      }
+    }
+  ]
+}
